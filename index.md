@@ -11,6 +11,35 @@ Cordeau et al. [[2](#Cordeau)] for the *Multi Depot Vehicle Routing Problem* (*M
 
 These instances were not only used by Lalla et al. [[3](#Lalla)] in their *POPMUSIC* approach to the *MDCCVRP*, but also Wang et al. [[4](#Wang)] in their paper used them to compare the results obtained.
 
+### File Format 
+
+This is the file format:
+
+```
+50 # n number of customers
+4  # t number of depots
+80 # Q vehicle capacity
+
+37.000000 52.000000 # Description of V: Dots in the plane. There are  n+t 
+49.000000 49.000000
+52.000000 64.000000
+...
+50.000000 30.000000
+60.000000 50.000000
+   # blank line
+7.000000 # Demands for each customer. There are n+t entries
+30.000000 
+16.000000
+9.000000
+...
+18.000000
+10.000000
+0.000000   # The last 4 are zeros corresponding to the depots
+0.000000
+0.000000
+0.000000
+```
+
 ### References
 
 <a name="Talarico"></a> 1. Talarico, L., Meisel, F., Sörensen, K.: Ambulance routing for disaster response with patient groups.
