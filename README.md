@@ -34,12 +34,11 @@ This is the file format:
 ...
 18.000000
 10.000000
-0.000000   # The las 4 are zeros corrsponding to the depots
+0.000000   # The last 4 are zeros corresponding to the depots
 0.000000
 0.000000
 0.000000
 ```
-
 
 ### References
 
